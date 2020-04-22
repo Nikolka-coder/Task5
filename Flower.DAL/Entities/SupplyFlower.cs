@@ -7,5 +7,6 @@ namespace Task5_EF.Entities
     public class SupplyFlower : FlowerCounter
     {
         public int SupplyId { get; set; }
+        public Supply Supply { get; set; }
     }
 }
