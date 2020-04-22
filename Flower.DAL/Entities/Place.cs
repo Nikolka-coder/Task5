@@ -11,7 +11,7 @@ namespace Task5_EF.Entities
         public string Name { get; set; }
         [Required(ErrorMessage = "Required field")]
         [Column(TypeName = "nvarchar(100)")]
-        public int Address { get; set; }
+        public string Address { get; set; }
 
     }
 }
