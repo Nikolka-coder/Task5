@@ -8,7 +8,7 @@ using Task5_EF.Entities;
 
 namespace Flower.DAL.Repositories
 {
-    class FlowerRepository :IFlowerRepository
+     public class FlowerRepository :IFlowerRepository
     {
         private readonly FlowerContext _flowerContext;
         public FlowerRepository(FlowerContext flowerContext)
