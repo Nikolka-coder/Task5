@@ -5,6 +5,10 @@ namespace Task5_EF.Context
 {
     public class FlowerContext : DbContext
     {
+        public FlowerContext()
+        {
+        }
+
         public FlowerContext(DbContextOptions<FlowerContext> options)
                  : base(options)
         {
