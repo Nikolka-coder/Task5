@@ -8,7 +8,7 @@ namespace Task5_EF.Context
         public FlowerContext(DbContextOptions<FlowerContext> options)
                  : base(options)
         {
-            //Database.EnsureCreated();
+            Database.EnsureCreated();
         }
         public DbSet<TheFlower> TheFlowers { get; set; }
         public DbSet<Plantation> Plantations { get; set; }
